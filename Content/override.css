@@ -26,8 +26,8 @@ body {
 }
 
 .row {
-    margin-left:10%;
-    margin-right:10%
+    margin-left:5%;
+    margin-right:5%
 }
 
 .square {
@@ -96,3 +96,52 @@ body {
     color: gold;
     font-size: 2em;
 }
+
+.rarity {
+    background-image: url(../Img/rarity.jpg)
+}
+
+.rainbowdash {
+    background-image: url(../Img/rainbow_dash.jpg)
+}
+
+.applejack {
+    background-image: url(../Img/applejack.jpg)
+}
+
+.pinkiepie {
+    background-image: url(../Img/pinkie_pie.jpg)
+}
+
+.twilightsparkle {
+    background-image: url(../Img/twilight_sparkle.jpg)
+}
+
+.fluttershy {
+    background-image: url(../Img/fluttershy.jpg)
+}
+
+.chrysalis {
+    background-image: url(../Img/chrysalis.jpg)
+}
+/*
+.rarity {
+    background-image: url(../Img/chrysalis.jpg)
+}
+
+.rarity {
+    background-image: url(../Img/chrysalis.jpg)
+}
+
+.rarity {
+    background-image: url(../Img/chrysalis.jpg)
+}
+
+.rarity {
+    background-image: url(../Img/chrysalis.jpg)
+}
+
+.rarity {
+    background-image: url(../Img/chrysalis.jpg)
+}
+*/

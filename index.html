@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-switch.min.css" rel="stylesheet" />
     <link href="Content/override.css" rel="stylesheet" />
 </head>
 <body>
@@ -84,34 +85,37 @@
     </div>
     <div class="container" style="background-color: black">
         <div class="row" style="color: azure">
-            <p class="text-center"><b>Our Pride</b></p>
-            <div class="col-md-6" style="padding: 15px">
-                <div class="circular-big center-block blur-me" style="background-image: url(Img/rarity.jpg)">
+            <div style="margin-bottom:50px">
+                <input type="checkbox" name="my-checkbox" checked>
+                <p style="position:absolute"><b>Our Pride</b></p>
+            </div>
+            <div id="goodbad" class="col-md-6" style="padding: 15px">
+                <div class="circular-big center-block rarity" id="rarity">
                     <p class="hidden">Rarity</p>
                 </div>
             </div>
             <div class="col-md-6" style="padding: 15px">
-                <div class="circular-big center-block blur-me" style="background-image: url(Img/rainbow_dash.jpg)">
+                <div class="circular-big center-block rainbowdash" id="rainbowdash">
                     <p class="hidden">Rainbow Dash</p>
                 </div>
             </div>
             <div class="col-md-6" style="padding: 15px">
-                <div class="circular-big center-block blur-me" style="background-image: url(Img/applejack.jpg)">
+                <div class="circular-big center-block applejack" id="applejack">
                     <p class="hidden">AppleJack</p>
                 </div>
             </div>
             <div class="col-md-6" style="padding: 15px">
-                <div class="circular-big center-block blur-me" style="background-image: url(Img/pinkie_pie.jpg)">
+                <div class="circular-big center-block pinkiepie" id="pinkiepie">
                     <p class="hidden">Pinkie Pie</p>
                 </div>
             </div>
             <div class="col-md-6" style="padding: 15px">
-                <div class="circular-big center-block blur-me" style="background-image: url(Img/twilight_sparkle.jpg)">
+                <div class="circular-big center-block twilightsparkle" id="twilightsparkle">
                     <p class="hidden">Twilight Sparkle</p>
                 </div>
             </div>
             <div class="col-md-6" style="padding: 15px">
-                <div class="circular-big center-block blur-me" style="background-image: url(Img/fluttershy.jpg)">
+                <div class="circular-big center-block fluttershy" id="fluttershy">
                     <p class="hidden">Fluttershy</p>
                 </div>
             </div>
@@ -212,7 +216,7 @@
     </div>
     <div class="container gradient">
         <div class="row">
-            <p class="text-center" style="color: chartreuse"><b>Disclaimer</b><br />UnicorNation, all right reserved. MadCow Technologies Group. (C)(R)(TM)</p>
+            <p class="text-center" style="color: chartreuse; padding-bottom:25px"><b>Disclaimer</b><br />UnicorNation, all right reserved. MadCow Technologies Group. (C)(R)(TM)</p>
 
         </div>
     </div>
@@ -227,6 +231,7 @@
         // Fallback to loading jQuery from a local path if the CDN is unavailable
         (window.jQuery || document.write('<script src="Content/bootstrap.min.css">><\/script>'));
     </script>
+    <script src="Scripts/bootstrap-switch.min.js"></script>
     <script src="Scripts/main.js"></script>
 
 </body>
